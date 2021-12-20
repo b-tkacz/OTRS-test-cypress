@@ -1,5 +1,5 @@
 describe('Login Admin2 and validate dashboard and admin rights', function(){
-    it('Sign in', function(){
+    it('Sign in admin2', function(){
         cy.visit('https://otrs-test.sidnet.info/otrs/index.pl')
         cy.get('input[id="User"]').type('admin2')
         cy.get('input[type="password"]').type('test8192')
