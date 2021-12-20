@@ -1,4 +1,4 @@
-describe('Login', function(){
+describe('Login agent2 and validate dashboard and lack of admin rights', function(){
     it('Sign in', function(){
         cy.visit('https://otrs-test.sidnet.info/otrs/index.pl')
         cy.get('input[id="User"]').type('agent2')

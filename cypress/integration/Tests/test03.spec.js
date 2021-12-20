@@ -1,4 +1,4 @@
-describe('Login', function(){
+describe('Assign admin rights to agent2', function(){
     it('Sign in', function(){
         cy.visit('https://otrs-test.sidnet.info/otrs/index.pl')
         cy.get('input[id="User"]').type('admin2')
