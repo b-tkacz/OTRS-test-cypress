@@ -5,6 +5,6 @@ describe('Login agent2 and validate admin rights', function(){
         cy.get('input[type="password"]').type('test8192')
         cy.get('#LoginButton').click()
         cy.get('#ResponsiveNavigationHandle').click()        
-        cy.contains('Administracja').should('be.visible')
+        cy.get('#nav-Admin').should('be.visible')
     })
 })
